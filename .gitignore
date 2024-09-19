@@ -1,0 +1,20 @@
+# Excluir node_modules
+node_modules/
+
+# Excluir test
+test/
+
+# Excluir configuraciones de Jest
+jest.config.js
+
+# Excluir archivos de configuración de npm
+package.json
+package-lock.json
+
+# Excluir archivos de imagen (si no son necesarios en tu proyecto)
+*.jpeg
+*.jpg
+*.png
+
+# Excluir archivos pdf
+*.pdf

@@ -1,0 +1,114 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #333333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #5EE8D5 !important;
+}
+
+.navbar-nav .nav-link {
+    color: #ccc !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #5EE8D5 !important;
+}
+
+/* Header */
+.bg-header {
+    background-color: #003366;
+    color: #ffffff;
+    padding-top: 180px; /* Espacio más amplio para evitar que se pegue al menú */
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    margin-top: 20px; /* Espacio adicional por si aún se necesita más separación */
+}
+
+header p {
+    font-size: 1.5rem;
+}
+
+header {
+    padding-bottom: 20px;
+}
+
+/* Section Titles */
+h2 {
+    color: #003366;
+    margin-bottom: 20px;
+}
+
+/* Project Cards */
+.project-card {
+    display: flex;
+    align-items: center;
+    background-color: #f8f9fa;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.project-icon {
+    flex-shrink: 0;
+    font-size: 48px;
+    color: #007bff;
+    margin-right: 15px;
+}
+
+.project-info {
+    padding: 20px;
+    flex: 1;
+}
+
+.project-info h3 {
+    margin-top: 0;
+}
+
+.project-info p {
+    margin-bottom: 10px;
+}
+
+/* Footer */
+.bg-footer {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+.bg-footer a {
+    color: #5EE8D5;
+    font-weight: bold;
+}
+
+.bg-footer a:hover {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.bg-footer h2 {
+    color: #5EE8D5;
+    font-weight: bold;
+}
